@@ -1,7 +1,7 @@
 ---
-title: "Cabbages"
-author: "Put your name here!"
-date: "put the date here"
+title: "Cabbages RMD"
+author: "Mallori Rojas"
+date: "summer 5-21-2024"
 output:
   html_document:
     df_print: paged
@@ -17,23 +17,36 @@ veggy <- cabbages
 # Introduction
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
- The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
+The cabbages data from the MASS package is loaded into a data frame called veggy. Complete this report by answering the following question  
  
-### Is there a difference in average VitC between c39 and c52 cultivation methods?  
+Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
+$H_0$: There is no difference in the average Vitamin C content of cabbage based on cultivation method.
+
+$H_A$: There is a difference in the average Vitamin C content of cabbage based on cultivation method.
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
+Vitamin C is a numerical, cultivation is categorical
+
+numerical-predicted by categorical. So we use the numerical-cat helper 
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
 ## Descriptive Results
 
+
+
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+
+
+
+
 
 ### Numerical Descriptive Results
 
